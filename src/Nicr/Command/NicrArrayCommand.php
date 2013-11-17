@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of the Cilex framework.
+ * This file is part of the Nicr CLI package.
  *
- * (c) Mike van Riel <mike.vanriel@naenius.com>
+ * (c) Cas Leentfaar <info@casleentfaar.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
