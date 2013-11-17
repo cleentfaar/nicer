@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Nicr CLI package.
+ * This file is part of the Nicer CLI package.
  *
  * (c) Cas Leentfaar <info@casleentfaar.com>
  *
@@ -12,7 +12,7 @@
 require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/cilex.phar';
 
-$app = new \Cilex\Application('Nicr', '0.1');
+$app = new \Cilex\Application('Nicer', '0.1');
 $app->register(new \Cleentfaar\Cilex\Provider\FilesystemServiceProvider());
-$app->command(new \Nicr\Command\NicrArrayCommand());
+$app->command(new \Cleentfaar\Nicer\Command\NicerArrayCommand());
 $app->run();

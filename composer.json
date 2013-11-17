@@ -1,8 +1,8 @@
 {
-    "name":        "cleentfaar/nicr",
+    "name":        "cleentfaar/nicer",
     "description": "A collection CLI commands that allow you to make files containing flat arrays or other hierarchical types more human-readable",
-    "keywords":    ["nicr","cli"],
-    "homepage":    "http://github.com/cleentfaar/nicr",
+    "keywords":    ["nicer","cli"],
+    "homepage":    "http://github.com/cleentfaar/nicer",
     "license":     "MIT",
     "autoload": {
         "psr-0": {

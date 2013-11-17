@@ -12,8 +12,8 @@
     bootstrap="vendor/autoload.php"
     >
     <testsuites>
-        <testsuite name="Nicr Test Suite">
-            <directory>./src/Nicr/Tests</directory>
+        <testsuite name="Nicer Test Suite">
+            <directory>./src/Nicer/Tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
