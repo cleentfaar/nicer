@@ -1,0 +1,10 @@
+# Nicr ignores
+.idea
+composer.lock
+
+# Cilex ignores
+vendor
+phpunit.xml
+cilex.phar
+composer.phar
+.vagrant

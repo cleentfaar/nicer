@@ -1,0 +1,26 @@
+{
+    "name":        "cleentfaar/nicr",
+    "description": "A collection CLI commands that allow you to make files containing flat arrays or other hierarchical types more human-readable",
+    "keywords":    ["nicr","cli"],
+    "homepage":    "http://github.com/cleentfaar/nicr",
+    "license":     "MIT",
+    "autoload": {
+        "psr-0": {
+            "": ["src/"]
+        }
+    },
+    "authors": [
+        {
+            "name":  "Cas Leentfaar",
+            "email": "info@casleentfaar.com"
+        }
+    ],
+    "require": {
+        "php":          ">=5.3.3",
+        "cilex/cilex":  "1.*",
+        "cleentfaar/cilex-filesystem-provider": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit":   "3.7.*"
+    }
+}
